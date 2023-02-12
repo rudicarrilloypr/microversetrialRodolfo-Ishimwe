@@ -1,13 +1,41 @@
+/*Done by Ishimwe and Rudi */
+
 a {
-  font-family:helvetica;
-}
-
-body {
-background-color:white;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+    font-family:helvetica;
   }
-}
+  
+  body {
+  background-color:rgb(226, 219, 234);
+  margin: 0%;
+  }
+  
+  .split {
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  .right {
+    right: 0;
+    background-color: white;
+    width: 65%;
+    padding: 5%;
+    
+  }
+  .left {
+    left: 0;
+    background-color: silver;
+    width: 25%;
+    padding: 3%;
+  }
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+  
+  }
